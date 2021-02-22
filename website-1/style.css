@@ -1,0 +1,555 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text-up {
+    text-transform: uppercase;
+}
+
+/*header*/
+
+header .container {
+    width: 35%;
+    height: 80rem;
+    padding-left: 4.5rem;
+    float: left;
+    position: fixed;
+}
+
+.heading {
+    display: block;
+    color: #333;
+    font-size: 3.6rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.cizgi {
+    color: #c7c7c7;
+    width: 10rem;
+    margin-bottom: 2rem;
+
+}
+
+#text {
+    line-height: 145%;
+    font-size: 1.5rem;
+    padding-right: 5rem;
+    padding-bottom: 2.5rem;
+}
+
+header p {
+    color: #aaa;
+    font-family: Lato, sans-serif;
+}
+
+.link a {
+    font-size: 1.3rem;
+    display: block;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    color: #aaa;
+    padding-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+    width: 2rem;
+}
+
+.link a:hover {
+    color: #333;
+}
+
+.link a:active {
+    color: #333;
+}
+
+
+.link {
+    padding-bottom: 2rem;
+}
+
+/*icons*/
+
+.icon a i {
+    color: black;
+    width: 2rem;
+    display: inline-block;
+    margin-right: .9rem;
+    margin-bottom: 1.5rem;
+    vertical-align: middle;
+    opacity: .36;
+    transition: opacity 1s;
+}
+
+.icon a img {
+    display: inline-block;
+    width: 2rem;
+    vertical-align: middle;
+    margin-right: .9rem;
+    margin-bottom: 1.5rem;
+    opacity: .36;
+    transition: opacity 1s;
+}
+
+.icon a i:hover {
+    opacity: 0.9;
+}
+
+.icon a img:hover {
+    opacity: 0.9;
+}
+
+/*-------*/
+
+#webflow {
+    letter-spacing: 0.2rem;
+    ;
+    text-transform: uppercase;
+}
+
+#webflow a {
+    color: #aaa;
+    ;
+    background-color: transparent;
+}
+
+#webflow a:hover {
+    color: #454545;
+}
+
+
+/*nav*/
+
+nav.container {
+    width: 65%;
+    height: 500rem;
+    background-color: #f0f0f0;
+    float: right;
+}
+
+#about-container {
+    height: 100rem;
+}
+
+#contact-container {
+    height: 100rem;
+}
+
+#art-tech-travel-container {
+    height: 120rem;
+}
+
+#music-container {
+    height: 220rem;
+}
+
+.firstpost {
+    display: block;
+    padding: 1.5rem;
+    margin: 5rem;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.firstpost h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.box {
+    height: 85rem;
+    display: block;
+    margin: 5rem;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+}
+
+.about-box {
+    height: 85rem;
+}
+
+.contact-box {
+    height: 75rem;
+}
+
+.box-Read {
+    height: 305rem;
+}
+
+.box-padding {
+    padding: 0 3rem;
+}
+
+.box .resim{
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: .9;
+    transition: opacity 1s;
+}
+
+.box img:hover {
+    opacity: .4;
+    cursor: pointer;
+}
+
+#resim2,
+#resim4 {
+    width: 100%;
+    height: auto;
+    transition: opacity 1s;
+}
+
+#resim2:hover,
+#resim4:hover {
+    opacity: .4rem;
+    cursor: pointer;
+}
+
+#about-img {
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+}
+
+.box h1 {
+    font-size: 3rem;
+    line-height: 3.7rem;
+    padding: 2rem 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.box h2 {
+    font-size: 2.5rem;
+    line-height: 3.7rem;
+    padding: 2rem 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+#about-h2 {
+    padding-left: 1rem;
+}
+
+#contact-h2 {
+    padding: 3rem 1rem;
+    font-weight: 600;
+}
+
+.box .description {
+    color: #aaa;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.box .about-description {
+    color: #333;
+    line-height: 2.2rem;
+    padding-left: 1rem;
+}
+
+.contact-desc {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.box .about-desc {
+    padding-left: 1rem;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.paragraf {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-family: Lato, sans-serif;
+    line-height: 160%;
+    font-size: 1.5rem;
+}
+
+.paragraf a {
+    text-decoration: underline;
+}
+
+blockquote {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-left: .5rem solid #e2e2e2;
+    font-size: 1.6rem;
+    line-height: 135%;
+}
+
+.box-Read ul li {
+    margin-bottom: 0;
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.box-Read ol li {
+    margin-bottom: 0;
+    list-style-type: decimal;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.box-Read ul {
+    margin-bottom: 2rem;
+}
+
+.box-Read ol {
+    margin: 2rem 0;
+}
+
+h3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    line-height: .3rem;
+    font-weight: 400;
+}
+
+h4 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 1.7rem;
+    line-height: 3.7rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.date {
+    position: absolute;
+    bottom: 1.5rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #aaa;
+
+}
+
+.dateRead {
+    position: inherit;
+    font-size: 1rem;
+    ;
+    line-height: 1.8rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+#Read {
+
+    display: inline;
+    margin-left: .8rem;
+    transition: color 200ms ease;
+    font-family: 'Lato', sans-serif;
+    color: #aaa;
+    font-size: 1.4rem;
+    line-height: 22%;
+    text-decoration: underline;
+    padding-left: 0.5rem;
+}
+
+.date p {
+    display: inline-block;
+}
+
+.date a {
+    display: inline-block;
+}
+
+.btn {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 1.1rem 2rem;
+    border-radius: .5rem;
+    background-color: #888;
+    transition: background-color 200ms ease;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn a {
+    color: white;
+}
+
+.btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn-about {
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.btn-contact {
+    margin-left: 1rem;
+}
+
+/*form*/
+
+form label {
+    padding-left: 1rem;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+form input,
+textarea {
+    display: block;
+    padding: 1.5rem;
+    width: 90%;
+    border: 1px solid #cccccc;
+    border-radius: .5rem;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+form input:focus,
+textarea:focus {
+    border-color: deepskyblue;
+    outline: 0;
+}
+
+/*@media*/
+
+
+@media screen and (max-width: 479px) {
+    html {
+        font-size: 4px;
+    }
+
+    .box {
+        height: 92rem;
+    }
+
+
+    #about-container {
+        height: 150rem;
+    }
+
+    .about-box {
+        height: 120rem;
+    }
+
+    header .container {
+        width: 100%;
+        display: block;
+    }
+
+    .paragraf {
+        font-size: 1rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 6px;
+    }
+
+    header .container {
+        position: static;
+        width: 100%;
+        border-bottom: 1px solid #e2e2e2;
+        text-align: center;
+        height: 40rem;
+        padding: 0;
+    }
+
+    nav.container {
+        width: 100%;
+        height: auto;
+        background-color: #f0f0f0;
+    }
+
+    #text {
+        margin-bottom: 2.5px;
+        padding-left: 4.5rem;
+    }
+
+    .heading {
+        margin-bottom: 10px;
+    }
+
+    .cizgi {
+        visibility: hidden;
+    }
+
+    .link a {
+        display: inline;
+        letter-spacing: .1rem;
+        width: 2rem;
+        padding-left: 2rem;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 7px;
+    }
+}
